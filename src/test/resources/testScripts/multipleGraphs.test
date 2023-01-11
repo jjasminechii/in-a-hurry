@@ -1,0 +1,17 @@
+# Find a path with Dijkstra's algorithm for paths of
+# two graphs
+
+CreateGraph simpleGraph
+CreateGraph secondGraph
+
+AddNode simpleGraph A
+AddNode simpleGraph B
+AddNode secondGraph C
+AddNode secondGraph D
+
+AddEdge simpleGraph A B 10.0
+AddEdge secondGraph C D 1.0
+
+FindPath simpleGraph A B
+
+FindPath secondGraph C D

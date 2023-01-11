@@ -1,0 +1,6 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+
+I had a few errors in my initial graph class where I was using TreeMap and TreeSet
+when I shouldn't so I changed all those to HashMap and HashSet. I
+also changed my addEdges method because it was creating a new independent
+set for each edge when it was supposed to be in one set.

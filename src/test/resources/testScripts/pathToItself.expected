@@ -1,0 +1,9 @@
+# Find a path with Dijkstra's algorithm when
+# the path found by BFS is by itself
+
+created graph simpleGraph
+
+added node A to simpleGraph
+
+path from A to A:
+total cost: 0.000
